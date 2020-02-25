@@ -23,7 +23,7 @@ class DicePage extends StatefulWidget {
 
 class _DicePageState extends State<DicePage> {
   int leftDiceNumber = 1;
-  int rightDiceNumber = 1;
+  int rightDiceNumber = 6;
 
   void changeDiceFace() {
     setState(() {
